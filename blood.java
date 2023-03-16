@@ -303,6 +303,7 @@ public class Blood extends Window{
                     try {
                         Thread.sleep(4000);
                     } catch (InterruptedException e) {
+                      console.log(e);
                     }
                     gameOverSound.stop();
                     manager.loadWindow(DASHBOARD);
