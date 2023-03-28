@@ -499,6 +499,7 @@ public class Blood extends Window{
                     try {
                         Thread.sleep(1900);
                     } catch (InterruptedException e) {
+                      console.log(e);
                     }
                     timeOutSound.play();
                     cellCounter++;
